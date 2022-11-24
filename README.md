@@ -78,11 +78,11 @@ You can find two ways to start the project below.
 First way;
 1. Clone the repo
 ```sh
-   https://github.com/Luxury-Sapanca/Boilerplate.git
+   https://github.com/Luxury-Sapanca/ExchangeRateUpdaterCk.git
    ```
-2. Find the <mark>Boilerplate.Api</mark> folder and run the project
+2. Find the <mark>ExchangeRateUpdaterCk.Api</mark> folder and run the project
 ```sh
-   C:\Projects\Boilerplate\Presentation\Boilerplate.Api>dotnet run
+   C:\Projects\Boilerplate\Presentation\ExchangeRateUpdaterCk.Api>dotnet run
    ```
 
 Second way;
