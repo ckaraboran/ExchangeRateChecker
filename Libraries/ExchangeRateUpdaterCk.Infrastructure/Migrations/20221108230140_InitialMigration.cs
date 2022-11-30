@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 
 #nullable disable
 
-namespace ExchangeRateUpdaterCk.Data.Migrations
+namespace ExchangeRateUpdaterCk.Infrastructure.Migrations
 {
     [ExcludeFromCodeCoverage]
     public partial class InitialMigration : Migration

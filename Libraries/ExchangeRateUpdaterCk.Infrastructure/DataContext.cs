@@ -1,6 +1,6 @@
-﻿using ExchangeRateUpdaterCk.Data.Extensions;
+﻿using ExchangeRateUpdaterCk.Infrastructure.Extensions;
 
-namespace ExchangeRateUpdaterCk.Data;
+namespace ExchangeRateUpdaterCk.Infrastructure;
 
 public class DataContext : DbContext
 {

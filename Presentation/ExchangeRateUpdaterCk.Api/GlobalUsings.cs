@@ -3,13 +3,13 @@
 global using AutoMapper;
 global using ExchangeRateUpdaterCk.Api.Middlewares;
 global using ExchangeRateUpdaterCk.Api.Security.Authorization;
-global using ExchangeRateUpdaterCk.Data;
-global using ExchangeRateUpdaterCk.Data.Repository;
+global using ExchangeRateUpdaterCk.Infrastructure;
+global using ExchangeRateUpdaterCk.Infrastructure.Repository;
 global using ExchangeRateUpdaterCk.Domain.Configurations;
 global using ExchangeRateUpdaterCk.Domain.DTOs;
 global using ExchangeRateUpdaterCk.Domain.Exceptions;
-global using ExchangeRateUpdaterCk.Service.Interfaces;
-global using ExchangeRateUpdaterCk.Service.Services;
+global using ExchangeRateUpdaterCk.Application.Interfaces;
+global using ExchangeRateUpdaterCk.Application.Services;
 global using Microsoft.AspNetCore.Authentication;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.AspNetCore.Authorization;

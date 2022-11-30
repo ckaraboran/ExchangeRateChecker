@@ -1,4 +1,6 @@
-﻿namespace ExchangeRateUpdaterCk.Data.Tests.Repository;
+﻿using ExchangeRateUpdaterCk.Infrastructure;
+
+namespace ExchangeRateUpdaterCk.Infrastructure.Tests.Repository;
 
 public class GenericRepositoryTests : IDisposable
 {

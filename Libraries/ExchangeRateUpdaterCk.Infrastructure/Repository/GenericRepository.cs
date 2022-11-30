@@ -1,4 +1,4 @@
-﻿namespace ExchangeRateUpdaterCk.Data.Repository;
+﻿namespace ExchangeRateUpdaterCk.Infrastructure.Repository;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, ISoftDelete
 {

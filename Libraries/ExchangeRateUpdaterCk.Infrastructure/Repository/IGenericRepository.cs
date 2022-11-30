@@ -1,4 +1,4 @@
-﻿namespace ExchangeRateUpdaterCk.Data.Repository;
+﻿namespace ExchangeRateUpdaterCk.Infrastructure.Repository;
 
 public interface IGenericRepository<T> where T : BaseEntity
 {

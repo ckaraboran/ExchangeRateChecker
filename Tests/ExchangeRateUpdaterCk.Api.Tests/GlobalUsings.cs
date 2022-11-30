@@ -5,7 +5,7 @@ global using ExchangeRateUpdaterCk.Api.Controllers;
 global using ExchangeRateUpdaterCk.Api.Middlewares;
 global using ExchangeRateUpdaterCk.Domain.DTOs;
 global using ExchangeRateUpdaterCk.Domain.Exceptions;
-global using ExchangeRateUpdaterCk.Service.Interfaces;
+global using ExchangeRateUpdaterCk.Application.Interfaces;
 global using Microsoft.AspNetCore.Http;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.Extensions.Logging;

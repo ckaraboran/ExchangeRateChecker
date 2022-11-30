@@ -3,8 +3,6 @@
 LLibraries/ExchangeRateUpdaterCk.Service/ExchangeRateUpdaterCk.Service.csproj,5/9/59a075ffa080cc8e67a70a60146d7ce4ebe8ca55
 ‚
 RTests/ExchangeRateUpdaterCk.Domain.Tests/ExchangeRateUpdaterCk.Domain.Tests.csproj,1/9/1932714a3a02fc241732ce9d138e9a6b5dc1451e
-I
-ExchangeRateUpdaterCk.sln,b/5/b5651dd71b92c2a3263fc0b3c1d33948841d433d
 i
 9Tests/ExchangeRateUpdaterCk.Service.Tests/GlobalUsings.cs,6/4/645d30f6f215905f1261405edee45f5e795c6181
 h
@@ -47,3 +45,5 @@ f
 TLibraries/ExchangeRateUpdaterCk.Domain/Configurations/AuthenticationConfiguration.cs,6/e/6e1b7bcdc9abf0630fd65abab3e19268c8fafff5
 ‡
 WPresentation/ExchangeRateUpdaterCk.Api/Security/Authentication/AuthenticationHandler.cs,2/4/24905e1a201ffd511d2c77c8c71b8e2d3ce9e206
+s
+CLibraries/ExchangeRateUpdaterCk.Domain/Exceptions/DummyException.cs,3/f/3fd63028de3ed39e12ecf2f6a7de478a8cb317d7

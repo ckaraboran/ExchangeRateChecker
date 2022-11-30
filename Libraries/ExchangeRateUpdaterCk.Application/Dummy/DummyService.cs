@@ -1,4 +1,6 @@
-﻿namespace ExchangeRateUpdaterCk.Service.Services;
+﻿using ExchangeRateUpdaterCk.Application.Interfaces;
+
+namespace ExchangeRateUpdaterCk.Application.Services;
 
 public class DummyService : IDummyService
 {

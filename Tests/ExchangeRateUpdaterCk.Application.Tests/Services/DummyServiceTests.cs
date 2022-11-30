@@ -1,4 +1,4 @@
-﻿namespace ExchangeRateUpdaterCk.Service.Tests.Services;
+﻿namespace ExchangeRateUpdaterCk.Service.Application.Services;
 
 public class DummyServiceTests
 {

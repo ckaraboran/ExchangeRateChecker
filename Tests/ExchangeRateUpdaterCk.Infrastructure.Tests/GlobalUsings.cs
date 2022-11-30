@@ -5,7 +5,7 @@ global using System.Collections.Generic;
 global using System.Data.Common;
 global using System.Threading;
 global using System.Threading.Tasks;
-global using ExchangeRateUpdaterCk.Data.Repository;
+global using ExchangeRateUpdaterCk.Infrastructure.Repository;
 global using ExchangeRateUpdaterCk.Domain.Entities;
 global using Microsoft.Data.Sqlite;
 global using Microsoft.EntityFrameworkCore;

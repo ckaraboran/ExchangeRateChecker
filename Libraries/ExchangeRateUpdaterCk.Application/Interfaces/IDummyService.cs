@@ -1,4 +1,4 @@
-﻿namespace ExchangeRateUpdaterCk.Service.Interfaces;
+﻿namespace ExchangeRateUpdaterCk.Application.Interfaces;
 
 public interface IDummyService
 {

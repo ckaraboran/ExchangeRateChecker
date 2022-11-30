@@ -2,23 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
-
-    <RootNamespace>ExchangeRateUpdaterCk.Service.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="3.2.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="coverlet.msbuild" Version="3.2.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.10" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
     <PackageReference Include="Moq" Version="4.18.2" />
     <PackageReference Include="xunit" Version="2.4.2" />
@@ -26,12 +20,15 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Data\ExchangeRateUpdaterCk.Data.csproj" />
-    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Domain\ExchangeRateUpdaterCk.Domain.csproj" />
-    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Service\ExchangeRateUpdaterCk.Service.csproj" />
+    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Infrastructure\ExchangeRateUpdaterCk.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Application\ExchangeRateUpdaterCk.Application.csproj" />
   </ItemGroup>
 
 </Project>

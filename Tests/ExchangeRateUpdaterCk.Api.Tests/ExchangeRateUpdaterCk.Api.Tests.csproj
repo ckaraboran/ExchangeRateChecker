@@ -29,7 +29,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Domain\ExchangeRateUpdaterCk.Domain.csproj" />
-    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Service\ExchangeRateUpdaterCk.Service.csproj" />
+    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Application\ExchangeRateUpdaterCk.Application.csproj" />
     <ProjectReference Include="..\..\Presentation\ExchangeRateUpdaterCk.Api\ExchangeRateUpdaterCk.Api.csproj" />
   </ItemGroup>
 

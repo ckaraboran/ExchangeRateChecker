@@ -13,20 +13,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Domain", "Libraries\ExchangeRateUpdaterCk.Domain\ExchangeRateUpdaterCk.Domain.csproj", "{2C77D7CE-EAB8-4295-8ECD-C65B6C0CFBFB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Service", "Libraries\ExchangeRateUpdaterCk.Service\ExchangeRateUpdaterCk.Service.csproj", "{BE17573C-2BCB-4C16-B15E-53949A227FD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Application", "Libraries\ExchangeRateUpdaterCk.Application\ExchangeRateUpdaterCk.Application.csproj", "{BE17573C-2BCB-4C16-B15E-53949A227FD6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Data", "Libraries\ExchangeRateUpdaterCk.Data\ExchangeRateUpdaterCk.Data.csproj", "{24834F6E-4E8E-421F-BF81-D6D530A3DBB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Infrastructure", "Libraries\ExchangeRateUpdaterCk.Infrastructure\ExchangeRateUpdaterCk.Infrastructure.csproj", "{24834F6E-4E8E-421F-BF81-D6D530A3DBB8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Api.Tests", "Tests\ExchangeRateUpdaterCk.Api.Tests\ExchangeRateUpdaterCk.Api.Tests.csproj", "{6891AC47-8F56-4AEB-9B95-A2FEFE71E611}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Service.Tests", "Tests\ExchangeRateUpdaterCk.Service.Tests\ExchangeRateUpdaterCk.Service.Tests.csproj", "{20B66927-D54C-4340-BB48-3B72FA2271D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Application.Tests", "Tests\ExchangeRateUpdaterCk.Application.Tests\ExchangeRateUpdaterCk.Application.Tests.csproj", "{20B66927-D54C-4340-BB48-3B72FA2271D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{97E62C57-FBB5-4513-98C7-8017ACB367FB}"
 	ProjectSection(SolutionItems) = preProject
 		Scripts\Add-Migrations.ps1 = Scripts\Add-Migrations.ps1
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Data.Tests", "Tests\ExchangeRateUpdaterCk.Data.Tests\ExchangeRateUpdaterCk.Data.Tests.csproj", "{E209E452-FAA9-48F5-90FC-E49EE5989A87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Infrastructure.Tests", "Tests\ExchangeRateUpdaterCk.Infrastructure.Tests\ExchangeRateUpdaterCk.Infrastructure.Tests.csproj", "{E209E452-FAA9-48F5-90FC-E49EE5989A87}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRateUpdaterCk.Domain.Tests", "Tests\ExchangeRateUpdaterCk.Domain.Tests\ExchangeRateUpdaterCk.Domain.Tests.csproj", "{CD817A00-CBD6-43B8-B8D2-8B16BD58DA09}"
 EndProject

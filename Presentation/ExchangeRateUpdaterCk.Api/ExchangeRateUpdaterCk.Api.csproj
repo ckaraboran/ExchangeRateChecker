@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Data\ExchangeRateUpdaterCk.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Infrastructure\ExchangeRateUpdaterCk.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Domain\ExchangeRateUpdaterCk.Domain.csproj" />
-    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Service\ExchangeRateUpdaterCk.Service.csproj" />
+    <ProjectReference Include="..\..\Libraries\ExchangeRateUpdaterCk.Application\ExchangeRateUpdaterCk.Application.csproj" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace ExchangeRateUpdaterCk.Data.Tests;
+﻿namespace ExchangeRateUpdaterCk.Infrastructure.Tests;
 
 public class MockFailCommandInterceptor : DbCommandInterceptor
 {

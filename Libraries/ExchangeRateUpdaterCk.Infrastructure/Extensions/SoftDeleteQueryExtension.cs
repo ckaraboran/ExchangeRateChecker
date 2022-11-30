@@ -1,4 +1,4 @@
-﻿namespace ExchangeRateUpdaterCk.Data.Extensions;
+﻿namespace ExchangeRateUpdaterCk.Infrastructure.Extensions;
 
 public static class SoftDeleteQueryExtension
 {
