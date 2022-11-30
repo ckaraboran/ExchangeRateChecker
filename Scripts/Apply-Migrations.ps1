@@ -1,1 +1,1 @@
-dotnet ef database update --project ../Libraries/Boilerplate.Data -s ../Presentation/Boilerplate.Api/Boilerplate.Api.csproj
+dotnet ef database update --project ../Libraries/ExchangeRateUpdaterCk.Data -s ../Presentation/ExchangeRateUpdaterCk.Api/ExchangeRateUpdaterCk.Api.csproj
